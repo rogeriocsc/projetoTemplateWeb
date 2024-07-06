@@ -33,7 +33,7 @@ header{
     justify-content: space-around;
     align-items: center;
 }
-.btn-menu {
+.btn-menu{
     width: 50px;
     height: 50px;
     background: #D6D58E;
@@ -44,13 +44,11 @@ header{
     transition-duration: .5s;
 }
 
-.btn-menu:hover {
+.btn-menu:hover{
     background-color: #D8FFDB;
 }
-nav{
-    display: none;
-}
-nav > ul {
+
+nav > ul{
     list-style-type: none;
     display: flex;
 }
@@ -78,25 +76,22 @@ nav > ul > li > a{
 main{
     margin: 6px;
 }
-.area-postagem{
+.container{
     max-width: 900px;
     height: 350px;
     margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row
+    justify-content: center;
+    align-items: center;
     background-color: white;
     border-radius: 10px;
 }
-.conteudo{
-    height: 350px;
-    padding: 8px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-.conteudo-principal{
-    display: flex;
-    flex-direction: column;
-    padding: 0px 20px;
+.img-conteudo{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
 }
 footer {
     background-color: #243645;
@@ -108,42 +103,3 @@ footer p {
     text-align: center;
     font-size: 1.2em;
 }
-
-/* min-width:  */
-@media screen and (min-width: 900px) {
-    .btn-menu {
-        display: none;
-    }
-    nav {
-        display: flex;
-    }
-}
-@media screen and (max-width: 950px){
-    .area-postagem{
-        max-width: 700px;
-        height: 350px;
-    }
-}
-@media screen and (max-width: 768px){
-    .area-postagem{
-        max-width: 620px;
-        height: 350px;
-    }
-}
-@media screen and (max-width: 650px){
-    .area-postagem{
-        max-width: 900px;
-        height: 500px;
-    }
-    .conteudo{
-        height: 450px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
-    .conteudo-principal h2{
-        padding: 6px 0px;
-    }
-}
-
