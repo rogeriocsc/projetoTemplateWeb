@@ -1,20 +1,23 @@
 @charset "UTF-8";
 /* Aparelho em pé (portrait) */
 
-nav{
+nav {
     display: none;
 }
-.container{
+
+.container {
     padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.img-conteudo img{
+
+.img-conteudo img {
     width: 200px;
     height: 150px; 
 }
+
 .conteudo p {
     padding-bottom: 15px;
 }

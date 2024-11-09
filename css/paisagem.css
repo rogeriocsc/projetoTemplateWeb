@@ -1,14 +1,17 @@
 @charset "UTF-8";
 /* Aparelho deitado (landscape) */
-header{
+
+header {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
-nav{
+
+nav {
     display: flex;
 }
+
 .btn-menu {
     display: none;
 }

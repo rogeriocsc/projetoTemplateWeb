@@ -1,31 +1,38 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
+
+body {
     background-color: rgb(220, 229, 224);
     font-family: Arial, Helvetica, sans-serif;
 }
-code{
+
+code {
     color: yellow;
     font-size: 1.5em;
 }
-p{
+
+p {
     line-height: 1.6em;
     font-size: 1.02em;
     text-align: justify;
 }
-h2{
+
+h2 {
     color: #191970;
     padding: 5px 0px;
 }
-img{
+
+img {
     border-radius: 8px;
 }
-header h2{
+
+header h2 {
     color: white;
 }
-header{
+
+header {
     height: 70px;
     background-color: #243645;
     display: flex;
@@ -33,7 +40,8 @@ header{
     justify-content: space-around;
     align-items: center;
 }
-.btn-menu{
+
+.btn-menu {
     width: 50px;
     height: 50px;
     background: #D6D58E;
@@ -44,39 +52,45 @@ header{
     transition-duration: .5s;
 }
 
-.btn-menu:hover{
+.btn-menu:hover {
     background-color: #D8FFDB;
 }
 
-nav > ul{
+nav > ul {
     list-style-type: none;
     display: flex;
 }
-nav > ul > li > a{
+
+nav > ul > li > a {
     display: block;
     padding: 10px;
     text-decoration: none;
     color: white;
 }
-.area-header{
+
+.area-header {
     height: 270px;
     background-image: linear-gradient(to bottom, #3d916a, #337052);
     padding: 0px 5px;
 }
-.area-header h2{
+
+.area-header h2 {
     color: white;
     text-align: center;
     padding: 30px 0px;
 }
-.area-header p{
+
+.area-header p {
     color: white;
     text-align: center;
     line-height: 1.7em; 
 }
-main{
+
+main {
     margin: 6px;
 }
-.container{
+
+.container {
     max-width: 900px;
     height: 350px;
     margin: 10px auto;
@@ -88,11 +102,13 @@ main{
     background-color: white;
     border-radius: 10px;
 }
-.img-conteudo{
+
+.img-conteudo {
     width: 250px;
     height: 250px;
     margin: 10px;
 }
+
 footer {
     background-color: #243645;
     padding: 30px;
